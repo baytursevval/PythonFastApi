@@ -25,8 +25,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("../models/1", compile=False)
+#MODEL = tf.keras.models.load_model("../models/1", compile=False)
 #beta_model=tf.keras.models.load_model("../models/2")
+
+MODEL = tf.keras.models.load_model("../vegetablesyeni.h5", compile=False)
 
 CLASS_NAMES= ["Bean", "Bitter_Gourd", "Bottle_Gourd","Brinjal",
               "Broccoli","Cabbage","Capsicum","Carrot","Cauliflower",
