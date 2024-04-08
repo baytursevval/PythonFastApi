@@ -6,4 +6,4 @@ pillow
 tensorflow-serving-api==2.14.1
 matplotlib
 numpy
-cv2
+opencv-python 4.9.0.80
