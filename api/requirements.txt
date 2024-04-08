@@ -7,3 +7,4 @@ tensorflow-serving-api==2.14.1
 matplotlib
 numpy
 opencv-python
+h5py
