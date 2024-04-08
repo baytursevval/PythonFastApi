@@ -25,7 +25,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.layers.TFSMLayer("../models/vegetables", compile=False)
+MODEL = tf.keras.layers.TFSMLayer("../models/vegetables")
 #beta_model=tf.keras.models.load_model("../models/2")
 
 CLASS_NAMES= ["Bean", "Bitter_Gourd", "Bottle_Gourd","Brinjal",
