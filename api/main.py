@@ -30,7 +30,7 @@ app.add_middleware(
 
 #MODEL = tf.keras.models.load_model("../models/vegetablesyeni.h5", compile=False)
 
-MODEL = tf.keras.models.load_model("C:/Users/sevval/Desktop/deepl/proje2/api/vegetablesyeni.h5", compile=False)
+MODEL = tf.keras.models.load_model("../app/vegetablesyeni.h5", compile=False)
 
 CLASS_NAMES= ["Bean", "Bitter_Gourd", "Bottle_Gourd","Brinjal",
               "Broccoli","Cabbage","Capsicum","Carrot","Cauliflower",
